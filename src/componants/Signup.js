@@ -51,7 +51,7 @@ export const Signup = (props) => {
 
 
     const ToggleEye= () =>{
-        if (type=="password"){
+        if (type==="password"){
             seteye(false);
             settype('text')
         }
