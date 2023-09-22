@@ -1,0 +1,38 @@
+
+
+.container{
+    background-image: linear-gradient(#BDEEFD, white) ;
+    width: 80%;
+    margin:40px auto 15px auto;
+    position: relative;
+    border: 2px solid rgb(7, 189, 250);
+    border-radius: 30px;
+}
+
+.heading{
+    position: absolute;
+    top: -25px;
+    left: 42%;
+    background-color: #BDEEFD;
+    font-weight: bold;
+}
+
+.input {
+    border: 2px solid grey;
+    border-radius: 18px;
+}
+
+.AddBtn{
+    background-color: greenyellow;
+    color: black;
+    margin:  20px 0 0 0 ;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+@media only screen and(max-width : 1000px) {
+    .heading{
+        left: 39%;
+    }
+} 

@@ -1,0 +1,12 @@
+.alert {
+    background-color: orange;
+    width: 40%;
+    margin: 15px auto;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    text-align: center;
+}
