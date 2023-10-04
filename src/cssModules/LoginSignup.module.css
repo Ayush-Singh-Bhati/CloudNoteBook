@@ -7,6 +7,7 @@
     padding: 20px;
     border: 1px solid grey;
     border-radius: 40px;
+    box-sizing: border-box;
 }
 
 .heading {
@@ -40,10 +41,36 @@ form div label {
 }
 .eyecss{
     position:absolute;
-    top: 48px;
+    top: 49px;
     right: 15px;
     
 }
 
 
 /* #BDEEFD */
+
+@media only screen and (max-width:500px) {
+     
+    .main{
+        width: 80%;
+    }
+    .main h1{
+        font-size: 25px;
+    }
+    .main label{
+        font-size: 15px;
+    }
+    .form-text{
+        display: none;
+    }
+    .eyecss{
+        top: 43px;
+        
+    }
+}
+@media only screen and (max-width:990px)  {
+    
+    .main{
+        width: 70%;
+    }
+}

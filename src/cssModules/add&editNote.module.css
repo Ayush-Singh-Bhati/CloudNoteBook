@@ -12,7 +12,8 @@
 .heading{
     position: absolute;
     top: -25px;
-    left: 42%;
+    left: 50%;
+    transform: translate(-50%);
     background-color: #BDEEFD;
     font-weight: bold;
 }
@@ -31,8 +32,8 @@
     border-radius: 20px;
 }
 
-@media only screen and(max-width : 1000px) {
+@media only screen and(max-width : 400px) {
     .heading{
-        left: 39%;
+        font-size: 10px;
     }
 } 

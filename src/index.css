@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./cssModules/clouds.png');
-  background-repeat:round ;
+  background-attachment:scroll;
   font-family: 'Poppins', sans-serif;
 }
 

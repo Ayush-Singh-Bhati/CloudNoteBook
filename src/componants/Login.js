@@ -75,7 +75,6 @@ export const Login = (props) => {
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
                     <input type="email" className={`form-control ${style.input}`} id="email" name='email' onChange={onChange} value={credentials.email} aria-describedby="emailHelp" />
-                    <div id="email" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className={`mb-3 ${style.password}`}>
                     <label htmlFor="password" className="form-label">Password</label>

@@ -57,7 +57,7 @@ export const Notes = (props) => {
                                 <form>
                                     <div className="mb-3">
                                         <label htmlFor="title" className="form-label">Title:-</label>
-                                        <input type="text"className={`form-control ${AEstyle.input}`} id="etitle" name='etitle' aria-describedby="emailHelp" onChange={onChange} value={note.etitle} minLength={3} />
+                                        <input type="text" className={`form-control ${AEstyle.input}`} id="etitle" name='etitle' aria-describedby="emailHelp" onChange={onChange} value={note.etitle} minLength={3} />
                                     </div>
 
                                     <div className="mb-3">
