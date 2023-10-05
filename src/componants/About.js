@@ -21,17 +21,13 @@ function About() {
 
         <p><b>4. Secure Login & Signup:</b> Your privacy is our priority. To access CloudNoteBook, simply sign up or log in with your email address. Rest assured that your personal information is safe and secure.</p>
 
-        <p><b>5. Customizable Organization:</b> Keep your notes tidy with folders and tags. Organize your notes by subject, project, or any system that suits your style.</p>
+        <p><b>5. Sync Across Devices:</b> Access your notes from your desktop, laptop, tablet, or smartphone. Your notes are seamlessly synced, ensuring you're always up to date.</p>
 
-        <p><b>6. Search and Find:</b> Our powerful search feature helps you locate notes quickly, even in a large collection. Never lose track of an important idea again.</p>
+        <p><b>6. Share and Collaborate:</b> Collaborate with colleagues or friends by sharing your notes or entire notebooks. Work together in real-time to brainstorm, plan, or study.</p>
 
-        <p><b>7. Sync Across Devices:</b> Access your notes from your desktop, laptop, tablet, or smartphone. Your notes are seamlessly synced, ensuring you're always up to date.</p>
+        <p><b>7. Version History:</b> Worried about making changes you might regret? We've got you covered with version history, so you can revert to previous versions of your notes if needed.</p>
 
-        <p><b>8. Share and Collaborate:</b> Collaborate with colleagues or friends by sharing your notes or entire notebooks. Work together in real-time to brainstorm, plan, or study.</p>
-
-        <p><b>9. Version History:</b> Worried about making changes you might regret? We've got you covered with version history, so you can revert to previous versions of your notes if needed.</p>
-
-        <p><b>10. Delete with Confidence:</b> If you no longer need a note, our platform allows you to securely delete it. Your data is handled with care.</p>
+        <p><b>8. Delete with Confidence:</b> If you no longer need a note, our platform allows you to securely delete it. Your data is handled with care.</p>
       </div>
 
       <div className={about.choice}>
