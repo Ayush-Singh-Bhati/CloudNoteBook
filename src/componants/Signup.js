@@ -16,7 +16,7 @@ export const Signup = (props) => {
         // API call
         // const { name, email, password } = credentials;
         if (credentials.password === credentials.cpassword){
-        const response = await fetch(`http://localhost:5000/api/auth/createuser`, {
+        const response = await fetch(`https://cloud-note-book-olive.vercel.app/signup`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
