@@ -3,7 +3,7 @@ import NoteContext from "./NoteContext";
 import { useState } from "react";
 
 const NoteState = (props) => {
-    const host = 'http://localhost:5000'
+    const host = 'https://cloud-note-book-olive.vercel.app'
     const notesinitial = []
     let [notes, setNotes] = useState(notesinitial)
 

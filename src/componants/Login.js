@@ -15,7 +15,7 @@ export const Login = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         // API call
-        const response = await fetch(`https://cloud-note-book-olive.vercel.app/login`, {
+        const response = await fetch(`https://cloud-note-book-olive.vercel.app/api/auth/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
